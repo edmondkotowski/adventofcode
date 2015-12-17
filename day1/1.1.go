@@ -19,7 +19,7 @@ func main() {
 
     for i := 0; i < len(data); i++ {
         if data[i] == '(' {
-		    floor++
+            floor++
         } else if data[i] == ')' {
             floor--
         }
